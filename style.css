@@ -1,0 +1,243 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family:Verdana, sans-serif;
+color:#333333;
+}
+
+h1{
+font-size:20px;
+font-weight:bold;
+}
+
+h2{
+font-size:16px;
+font-weight:bold;
+}
+
+p{
+font-size:14px;
+font-weight:normal;
+padding-top:5px;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+display:block;
+}
+
+
+body{
+background:url("grey_wash_wall.png") repeat;
+width:100%;
+display:-webkit-box;
+-webkit-box-pack:center;
+display:-moz-box;
+-moz-box-pack:center;
+text-align:center;
+}
+
+/* All the above is for old browser compatibility */
+
+
+
+#container{
+background-color: none;
+max-width:800px;
+margin:20px auto;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:1;
+display:-moz-box;
+-moz-box-orient:vertical;
+-moz-box-flex:1;
+text-align:left;
+}
+
+
+#top-header img{
+width: 100%;
+height: 120px;	/* 120 height is based on a width of 800 */
+margin-top:20px;
+border-radius:15px;
+}
+
+ul{
+font-size:0px
+}
+
+#top-menu{
+height: 40px;
+border-top:1px solid rgba(0,0,0,0.3);
+background: rgba(0,0,0,0.25);
+box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+margin-bottom:20px;
+margin-top:20px;
+}
+
+#top-menu li{
+display:inline-block;
+font-weight:normal;
+font-size:16px;
+text-shadow:1px 1px 1px black;
+list-style:none;
+padding: 10px;
+border-right:1px solid rgba(0,0,0,0.4);
+background: rgba(0,0,0,0.1);
+
+}
+
+
+a {
+color:#333333;
+text-decoration:none;
+}
+
+#top-menu a{
+color:#cccccc;
+text-decoration:none;
+}
+
+#top-menu li a:hover{
+color: white;
+}
+
+#right-section a:hover {
+font-weight:bold;
+text-decoration:none;
+}
+
+#top-menu li:hover{
+background: rgba(0,0,0,0.3);
+}
+
+#important-stuff{
+display:-webkit-box;
+-webkit-box-orient:horizontal;
+display:-moz-box;
+-moz-box-orient:horizontal;
+}
+
+#main-section{
+background-color: rgba(255,255,255,0.7);
+margin-right:20px;
+border-radius:10px;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+}
+
+
+#first-article{
+padding: 20px 20px 20px 20px;
+margin-bottom: 15px;
+}
+
+
+#more-articles{
+padding: 20px 20px 20px 20px;
+margin-bottom: 15px;
+border-top:1px dotted black;
+}
+
+#pipic img{
+width:100%;
+}
+
+#right-section{
+background-color: rgba(255,255,255,0.7);
+width:200px;
+padding:20px 20px 20px 20px;
+border-radius:10px;
+}
+
+
+/* Single section for Contact page */
+
+#contact-section{
+background-color: rgba(255,255,255,0.7);
+border-radius:10px;
+padding-top:150px;
+padding-bottom:150px;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+text-align: center;
+}
+
+#contact-email{
+display: block;
+background: rgba(0,0,0,0.6);
+border:1px solid rgb(0,0,0);
+width:300px;
+border-radius: 10px;
+margin:0 auto;
+padding-top:30px;
+padding-bottom:30px;
+text-align: center;
+-webkit-transition: -webkit-transform 2s, color 2s, background 2s;
+}
+
+#email-send a{
+color:rgba(255,255,255,0.8);
+}
+
+#contact-email:hover {
+-webkit-transform: rotate(360deg);
+color:white;
+background:rgba(0,0,0,0.8);
+}
+
+
+/* Single section for Site Map page */
+
+#sitemap-section{
+background-color: rgba(255,255,255,0.7);
+border-radius:10px;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#sitemap-section a:hover {
+font-weight:bold;
+text-decoration:none;
+}
+
+
+
+
+#the-footer	{
+color:#cccccc;
+text-shadow:1px 1px 1px black;
+margin-top: 20px;
+padding-top:10px;
+padding-bottom:10px;
+width: 100%;
+border-top:1px solid rgba(0,0,0,0.3);
+background: rgba(0,0,0,0.25);
+box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+text-align:center;
+font-weight:normal;
+}
+
+#disco-gallery-title{
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: rgba(255,255,255,0.7);
+border-radius:10px;
+}
+
+#disco-gallery {
+margin-top: 0px;
+border-top:1px dotted black;
+text-align:center;
+}
+
+#disco-pics li {
+display:inline-block;
+list-style:none;
+width:200px;
+padding:10px;
+
+}
+
